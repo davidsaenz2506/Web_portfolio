@@ -92,6 +92,17 @@ button:hover {
   margin-bottom: 50px;
 }
 
+.thanksOut h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.thanksOut h3 {
+  color: white;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
 button p {
   margin-left: 10px;
   width: 45%;
@@ -236,7 +247,7 @@ textarea {
 .experienceImage {
   width: 650px;
   height: 500px;
-  animation: tilt 4s infinite;;
+  animation: tilt 4s infinite;
   transition: all 0.5s;
   z-index: 1;
 }
@@ -468,12 +479,303 @@ textarea {
 
 @keyframes tilt {
   0% {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   25% {
-    transform: rotate(-5deg); }
+    transform: rotate(-5deg);
+  }
   50% {
-    transform: rotate(5deg); }
+    transform: rotate(5deg);
+  }
   75% {
-    transform: rotate(-5deg); }
+    transform: rotate(-5deg);
+  }
   100% {
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1400px) {
+  .parentInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .childInfo {
+    margin-bottom: 50px;
+    margin-top: -10px;
+  }
+
+  .secondParentInfo {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondChildInfo {
+    width: 90%;
+    margin-bottom: 70px;
+  }
+
+  .echosystemPicture {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .thirdParentInfo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .thirdChildInfo {
+    width: 90%;
+  }
+
+  .experiencePicture {
+    width: 100%;
+    margin-top: 50px;
+    z-index: 1;
+  }
+
+  .footer {
+    z-index: 2;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer {
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .moreAbout {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  .socialImages {
+    margin-right: 60px;
+  }
+
+  .myContact {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .elem-group {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .HeaderText p {
+    font-size: 40px;
+  }
+
+  .localText {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .tipyngTextParentCode {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 870px) {
+  .HeaderText p {
+    font-size: 35px;
+  }
+
+  .localText {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .tipyngTextParentCode {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 760px) {
+  .HeaderText p {
+    font-size: 30px;
+  }
+
+  .localText {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .tipyngTextParentCode {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .Header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .HeaderText p {
+    font-size: 20px;
+  }
+
+  .localText {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .tipyngTextParentCode {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 540px) {
+  .Header {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .HeaderText {
+    margin-right: 100px;
+  }
+
+  .childInfo h1 {
+    font-size: 25px;
+  }
+
+  .childInfo p {
+    font-size: 15px;
+  }
+
+  .myImage {
+    width: 300px;
+    height: max-content;
+  }
+
+  .secondChildInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .secondChildInfo h1 {
+    font-size: 25px;
+    margin-right: 45px;
+  }
+
+  .secondChildInfo p {
+    font-size: 15px;
+    margin-right: 40px;
+  }
+
+  .frontTech {
+    font-size: 15px;
+  }
+
+  .backTech {
+    font-size: 15px;
+  }
+
+  .tipyngTextParentCode {
+    display: none;
+  }
+
+  .localText {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .tipyngTextParentCode {
+    margin-bottom: 30px;
+  }
+
+  .thirdChildInfo h1 {
+    font-size: 25px;
+    text-align: end;
+    margin-left: 45px;
+  }
+
+  .thirdChildInfo p {
+    font-size: 15px;
+    text-align: end;
+    margin-left: 45px;
+  }
+
+  .thirdChildInfo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .workingCard p {
+    margin-left: 0px;
+    text-align: start;
+  }
+
+  .workingCard {
+    margin-left: 20px;
+  }
+
+  .experienceImage {
+    width: 300px;
+    height: fit-content;
+  }
+
+  .myContact {
+    width: 80%;
+  }
+
+  .thanksOut {
+     margin-left: 0;
+  }
+
+  .thanksOut h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .thanksOut h3 {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .socialImages {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact_img {
+    margin-right: 120px;
+  }
+
+  .whatsapp img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .linkedin img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .instagram img {
+    height: 100px;
+    width: 100px;
+  }
+
+  form button {
+    width: 80%;
+  }
+}

@@ -322,12 +322,8 @@ function App() {
         </div>
         <div className="moreAbout">
           <div className="thanksOut">
-            <h1 style={{ color: "white", fontSize: "60px" }}>
-              Thank you for visiting my website!
-            </h1>
-            <h3
-              style={{ color: "white", fontSize: "30px", marginTop: "-10px" }}
-            >
+            <h1>Thank you for visiting my website!</h1>
+            <h3>
               If you wish to contact me, you can do so through this form, just
               enter your information and I will contact you with you as soon as
               possible, have a great day
